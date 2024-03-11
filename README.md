@@ -1,30 +1,32 @@
+<textarea id="source">
 
+<h1 class="slide-header">Adding Content to a Web Page</h1>
 
- <textarea id="source">
-
-<h1 class="slide-header">Title</h1>
-
-<span id=time-estimate class="color-grey-500">20 mins</span>
+<span id=time-estimate class="color-grey-500">30 mins</span>
 
 <p id="lesson-description">
-  In this lesson you'll learn blah blah blah
+  With templates like the HTML boilerplate, it’s easy to put the shell of an HTML file into place. But populating that page with content? That’s up to you. In this lesson, we’ll show you how.
 </p>
 
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
 
-Topic # 1
+Writing Text in HTML
 
 <hr>
 
-Topic #2
+Adding Links in HTML
 
 <hr>
 
-Topic #3
+Creating Lists in HTML
 
 <hr>
 
-<a href="https://ga-waite.s3.amazonaws.com/production/sanitized-pdfs/introduction-to-html-2.pdf" target="_blank" download="introduction_to_html_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
+Inserting Images in HTML
+
+<hr>
+
+<a href="https://ga-create-api.s3.amazonaws.com/studyguides/adding-content-to-a-webpage-2ab50f.pdf" target="_blank" download="adding_conent_to_a_web_page_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
 
 ---
 
@@ -33,106 +35,194 @@ Topic #3
 <p>By the end of this lesson, you'll be able to:</p>
 
 <ul>
-  <li>Objective 1</li>
-  <li>Objective 2</li>
-  <li>Objective 3</li>
+  <li>Add text elements to an HTML file.</li>
+  <li>Add links to an HTML file.</li>
+  <li>Add lists to an HTML file.</li>
+  <li>Add images to an HTML file.</li>
 </ul>
 
 ---
 
-<h1 class="slide-header">Video Content</h1>
-<!--
-  WISTIA EXAMPLE. REPLACE 11dit621rx with the id
--->
-<div class="wistia_embed wistia_async_11dit621rx wistia_embed_initialized" id="wistia-11dit621rx-1"
-  style="width: 100%; height: 50%;">
-  <div id="wistia_chrome_23" class="w-chrome notranslate" tabindex="-1">
-    <div id="wistia_grid_57_wrapper" style="display: block; width: 630px; height: 354.375px;">
-      <div id="wistia_grid_57_above" style="height: 0px; font-size: 0px; line-height: 0px;"> </div>
-      <div id="wistia_grid_57_main" style="width: 630px; left: 0px; height: 354.375px; margin-top: 0px;">
-        <div id="wistia_grid_57_center" style="width: 100%; height: 100%;">
-          <div class="w-video-wrapper w-css-reset"
-            style="height: 100%; position: absolute; top: 0px; width: 100%; opacity: 1;">
-            <video id="wistia_simple_video_135" crossorigin="anonymous"
-              poster="https://fast.wistia.com/assets/images/blank.gif" aria-label="Video" controlslist="nodownload"
-              playsinline="" preload="auto" type="video/m3u8" x-webkit-airplay="allow"
-              style="background: transparent; display: block; height: 100%; max-height: none; max-width: none; position: static; visibility: visible; width: 100%; object-fit: contain;"></video>
-          </div>
-          <div class="w-ui-container"
-            style="height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; opacity: 1;">
-            <div class="w-vulcan-v2 w-css-reset" id="w-vulcan-v2-56"
-              style="border-radius: 0px; box-sizing: border-box; cursor: default; direction: ltr; height: 100%; left: 0px; position: absolute; visibility: visible; top: 0px; width: 100%;">
-              <div class="w-vulcan--background w-css-reset"
-                style="height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;">
-                <div class="w-css-reset" data-handle="statusBar"></div>
-                <div class="w-css-reset" data-handle="backgroundFocus"><button
-                    aria-label="Play Video: A Brief History of the Web" class="w-css-reset w-vulcan-v2-button"
-                    tabindex="0" style="width: 0px; height: 0px; pointer-events: none;"></button></div>
-              </div>
-              <div aria-live="polite" class="w-vulcan--aria-live w-css-reset" aria-atomic="true"
-                style="position: absolute; left: -99999em;"></div>
-              <div class="w-vulcan-overlays-table w-css-reset"
-                style="display: table; pointer-events: none; position: absolute; width: 100%;">
-                <div class="w-vulcan-overlays--left w-css-reset"
-                  style="display: table-cell; vertical-align: top; position: relative; width: 0px;">
-                  <div class="w-css-reset" style="height: 321.375px;"></div>
-                </div>
-                <div class="w-vulcan-overlays--center w-css-reset"
-                  style="display: table-cell; vertical-align: top; position: relative; width: 100%;">
-                  <div class="w-css-reset" style="height: 321.375px;">
-                    <div class="w-css-reset" data-handle="bigPlayButton" style="pointer-events: auto;">
-                      <div class="w-bpb-wrapper w-css-reset w-css-reset-tree"
-                        style="border-radius: 0px; display: none; left: calc(50%); margin-left: -61.5234px; margin-top: -39.375px; overflow: hidden; position: absolute; top: calc(50% + 0px);">
-                        <button class="w-big-play-button w-css-reset-button-important w-vulcan-v2-button" tabindex="0"
-                          type="button" style="cursor: pointer; height: 78.75px; box-shadow: none; width: 123.047px;">
-                          <div
-                            style="background: rgb(1, 121, 145); display: block; left: 0px; height: 78.75px; mix-blend-mode: darken; position: absolute; top: 0px; width: 123.047px;">
-                          </div>
-                          <div
-                            style="background-color: rgba(1, 121, 145, 0.7); height: 78.75px; left: 0px; position: absolute; top: 0px; transition: background-color 150ms ease 0s; width: 123.047px;">
-                          </div><svg x="0px" y="0px" viewBox="0 0 125 80" enable-background="new 0 0 125 80"
-                            aria-hidden="true" alt=""
-                            style="fill: rgb(255, 255, 255); height: 78.75px; left: 0px; stroke-width: 0px; top: 0px; width: 100%; position: absolute;">
-                            <rect fill-rule="evenodd" clip-rule="evenodd" fill="none" width="125" height="80"></rect>
-                            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="53,22 53,58 79,40">
-                            </polygon>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                    <div class="w-css-reset" data-handle="clickForSoundButton" style="pointer-events: auto;">
-  <div class="w-css-reset w-css-reset-tree" data-handle="click-for-sound-backdrop"
-    style="display: none; height: 100%; left: 0px; pointer-events: auto; position: absolute; top: 0px; width: 100%;">
-    <button aria-label="Click for sound" class="w-vulcan-v2-button click-for-sound-btn"
-      style="background: rgba(0, 0, 0, 0.8); border: 2px solid transparent; border-radius: 60px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; outline: none; pointer-events: auto; position: absolute; right: 20.1484px; top: 20.1484px; max-width: 589.703px;">
-      <div
-        style="display: flex; align-items: center; justify-content: flex-end; white-space: nowrap; overflow: hidden; max-width: 0px; transition: max-width 200ms ease 0s;">
-        <span
-          style="color: rgb(255, 255, 255); font-family: WistiaPlayerInter, Helvetica, sans-serif; font-size: 15px; font-weight: 500; padding-left: 1em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 630px;">Click
-          for sound</span>
-      </div><svg viewBox="0 0 237 237" width="51.6796875" height="51.6796875"></svg>
-    </button>
-</div>
-</div>
-</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- YOUTUBE -->
-<!-- VIMEO -->
-<details>
-  <summary>Transcript</summary>
+<h1 class="slide-header">Adding Headings</h1>
+
+All websites should start with a heading — something that tells users what they’re seeing.
+
+There are a series of these heading tags available, from `<h1>` through `<h6>`.  As the numbers increase, the text gets smaller. (Think about it this way: The `<h1>` is the most important element on the page, the `<h2>` is second-most important, and so on down the line.)
+
+![Example of HTML Heading Sizes](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/adding-content-to-web/Heading%20Sizes.png)
+
+---
+
+<h1 class="slide-header">Adding Zelda's Headings</h1>
+
+Let’s pick up where we left off last lesson, when we added an `<h1>` to Zelda’s site — “Kasserole,” the name of the band.
+
+Most sites should have **only one `<h1>` tag**, as it’s supposed to indicate the most important thing on the page. So, let’s add another heading below that. Maybe something to build up Zelda’s confidence about her new band?
   
-  <p class="transcript-text">
-    Lorem ipsum etc etc
-  </p>
-</details>
+Let’s use an `<h3>` tag, because we don’t need the copy to be quite as large as the `<h1>`. Add the text `Critics dub Kasserole the Metallica of modern times.`.
+  
+Remember to click the button to run our tests, which will confirm that your code is correct!
+
+---
+
+<h1 class="slide-header">Adding More Text</h1>
+
+Zelda’s been thinking about the new website, too. In fact, she just texted you the following request:
+
+![Text message](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/adding-content-to-web/Zelda%20Text%20Message%20Request%20for%20Tagline.png)
+
+---
+
+<h1 class="slide-header">The p tag</h1>
+
+Let’s add Zelda’s new tagline to the page. We’ll place it in a `<p>`, or “paragraph,” tag, which adds text in a smaller, more standard size than heading tags. Think of the `<p>` tag as your default option for regular text.
+
+Below the `<h1>` and `<h3>`, add a `<p>` that contains `Out of the oven and into your soul.`.
+
+---
+
+<h1 class="slide-header">Another Message from Zelda</h1>
+
+Looks like we’ve got another item to add! 
+
+![Text message](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/adding-content-to-web/Zelda%20Text%20Message%20Requesting%20For%20Link.png)
+
+---
+
+<h1 class="slide-header">Adding a Hyperlink</h1>
+
+Let’s add that text and link it to the YouTube demo video.
+
+Follow these steps:
+1. After the tagline, add another paragraph opening tag (`<p>`).
+2. Following the new `<p>` tag, add this exact code: `<a href="https://www.youtube.com/watch?v=vm32-ted2rI" target="_blank">Rock out to a demo.</a>` .
+3. Add the closing paragraph tag.
+4. Check the preview screen to see if the new text appears. The URL _itself_ shouldn’t be displayed, only the words “Rock out to a demo.” 
+
+That was easy enough to plug in, but what does the `<a>` tag mean? And what’s with that `href=`?
+
+---
+
+<h1 class="slide-header">The Anchor Element Tag</h1>
+
+Here’s the element we added:
+
+![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/annotated-code.png)
+
+Let’s break it down.
+* The `a` in the tag stands for **anchor**. An anchor tag is a means of linking to another place; either to a location on the same page or to a completely different website, like you’re doing here.
+* The `href` stands for **hypertext reference**. This is the web address to which you are linking. 
+* The `target` attribute is a finishing touch. It isn’t strictly necessary, but it’s good to include. Setting the `target` value to `“_blank”` tells the browser to open the destination page in a _new window or tab_. If we _don’t_ include a target element, when a user clicks on the link, the new site will open in the same window (and take them away from our page). We don’t want that!
+* After the `target`, you can enter the **display text**, which the user will see on the page (instead of the long, messy hyperlink).
+
+---
+
+<h1 class="slide-header">Add Your Own Link</h1>
+
+Your turn!
+
+1. Add a new hyperlink to our HTML file inside of a new paragraph element. 
+2. Link to `https://pitchfork.com/` using the display text “Check out our reviews on Pitchfork.” 
+3. Make sure to set the target attribute to `_blank` so that your link opens in a new browser window.
+4. Always remember to check the preview window to ensure that everything has rendered correctly!
+
+---
+
+<h1 class="slide-header">Zelda's Newest Request</h1>
+
+OK, so she wants a list of songs. Luckily, there’s an HTML element for that!
+
+![Text message](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/adding-content-to-web/Zelda%20Text%20Message%20Request%20For%20List%20Of%20Songs.png)
+
+---
+
+<h1 class="slide-header">Adding a List</h1>
+
+To add that list of songs to the HTML file, follow these steps:
+
+1. Add an `<h2>` element with a line containing the text `Song List`, and remember to use both opening and closing tags.
+2. After the `<h2>`, add the list like so:
+
+```HTML
+<ul>
+  <li>Ogre Blood Ballad</li>
+  <li>Love is Weird</li>
+  <li>Just Because</li>
+  <li>Darkness in the Dark</li>
+</ul>
+```
+
+---
+
+<h1 class="slide-header">The List Element</h1>
+
+Notice how the list we added has a _parent element_ with four indented  _child elements_:
+
+```HTML
+<ul>
+  <li>Ogre Blood Ballad</li>
+  <li>Love is Weird</li>
+  <li>Just Because</li>
+  <li>Darkness in the Dark</li>
+</ul>
+```
+
+* The `<ul>` tag in the parent element stands for **unordered list**, which is a list of things in no particular order. 
+* The `<li>` in the child elements stands for **list item**. Each item gets its own set of `<li>` tags, which ensures that each item is listed on a separate line. 
+
+**Note**: What’s the opposite of an _unordered_ list? An _ordered_ list! Numbered lists that follow a specific order use a different tag: `<ol>`. As you progress in your web development career, you’ll notice that `<ul>`s are more common than `<ol>`s.
+
+---
+
+<h1 class="slide-header">Knowledge Check</h1>
+
+Let’s practice your list-making skills. In the box below (not on Zelda’s website), write out the HTML code that would create a list like this one:
+```
+Types of cats:
+1. Tuxedo
+2. Burmese
+3. Maine Coon
+4. Calico
+```
+
+---
+
+<h1 class="slide-header">Surprise, Zelda!</h1>
+
+You’re not going to wait around for Zelda’s next text message. Instead, you’ll surprise her by adding something else to the HTML file: an **image**.
+
+And not just _any_ image — a high-quality photo of tater tot casserole. (Get it? Kasserole?)
+
+![A tater tot casserole](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/adding-content-to-web/Public-Domain-Tater-Tot-Casserole.jpg)
+
+---
+
+<h1 class="slide-header">Adding an Image</h1>
+
+So, how will you do this? You can’t just pop _any_ old image right into the HTML file. It has to be hosted somewhere online so that you can reference a specific **URL**, or web address, to link to it.
+
+On a new line, below the closing tag for your list (`</ul>`), add the following code: `<img src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />`.
+
+That’s a hefty bit of code, huh? We’ll review each part on the next slide.
+
+---
+
+<h1 class="slide-header">HTML Image Attributes</h1>
+
+cards 
+
+---
+
+<h1 class="slide-header">Conclusion</h1>
+
+Wow, the heavy metal band website you’ve been working on has come a long way! Let’s review what you’ve accomplished:
+
+* You added text, including paragraphs (`<p>`) and headings (`<h1-h6>`).
+* You added two hyperlinks with the `<a>` tag, which — when clicked — open new browser windows.
+* You added an unordered list of songs with a `<ul>` and `<li>`s.
+* And finally, you added an image (`<img>`) of a tasty looking tater tot casserole.
+
+That’s a lot! 
 
 ---
 
