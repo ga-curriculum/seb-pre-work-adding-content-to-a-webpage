@@ -63,6 +63,12 @@ Let’s use an `<h3>` tag, because we don’t need the copy to be quite as large
   
 Remember to click the button to run our tests, which will confirm that your code is correct!
 
+<iframe height="300" style="width: 100%;" scrolling="no" title="Adding Zelda's Headings" src="https://codepen.io/GAmarketing/embed/BaEQdxw?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/BaEQdxw">
+  Adding Zelda's Headings</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 ---
 
 <h1 class="slide-header">Adding More Text</h1>
@@ -78,6 +84,12 @@ Zelda’s been thinking about the new website, too. In fact, she just texted you
 Let’s add Zelda’s new tagline to the page. We’ll place it in a `<p>`, or “paragraph,” tag, which adds text in a smaller, more standard size than heading tags. Think of the `<p>` tag as your default option for regular text.
 
 Below the `<h1>` and `<h3>`, add a `<p>` that contains `Out of the oven and into your soul.`.
+
+  <iframe height="300" style="width: 100%;" scrolling="no" title="The paragraph tag" src="https://codepen.io/GAmarketing/embed/yLrVojR?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href="https://codepen.io/GAmarketing/pen/yLrVojR">
+    The paragraph tag</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+    on <a href="https://codepen.io">CodePen</a>.
+  </iframe>
 
 ---
 
@@ -98,6 +110,12 @@ Follow these steps:
 2. Following the new `<p>` tag, add this exact code: `<a href="https://www.youtube.com/watch?v=vm32-ted2rI" target="_blank">Rock out to a demo.</a>` .
 3. Add the closing paragraph tag.
 4. Check the preview screen to see if the new text appears. The URL _itself_ shouldn’t be displayed, only the words “Rock out to a demo.” 
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Adding a Hyperlink" src="https://codepen.io/GAmarketing/embed/XWQNaqQ?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/XWQNaqQ">
+  Adding a Hyperlink</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 That was easy enough to plug in, but what does the `<a>` tag mean? And what’s with that `href=`?
 
@@ -126,6 +144,12 @@ Your turn!
 3. Make sure to set the target attribute to `_blank` so that your link opens in a new browser window.
 4. Always remember to check the preview window to ensure that everything has rendered correctly!
 
+<iframe height="300" style="width: 100%;" scrolling="no" title="Add Your Own Link" src="https://codepen.io/GAmarketing/embed/abxByGe?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/abxByGe">
+  Add Your Own Link</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 ---
 
 <h1 class="slide-header">Zelda's Newest Request</h1>
@@ -151,6 +175,12 @@ To add that list of songs to the HTML file, follow these steps:
   <li>Darkness in the Dark</li>
 </ul>
 ```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Adding a List" src="https://codepen.io/GAmarketing/embed/JjVbyZj?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/JjVbyZj">
+  Adding a List</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ---
 
@@ -204,6 +234,12 @@ So, how will you do this? You can’t just pop _any_ old image right into the HT
 On a new line, below the closing tag for your list (`</ul>`), add the following code: `<img src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />`.
 
 That’s a hefty bit of code, huh? We’ll review each part on the next slide.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Adding an Image" src="https://codepen.io/GAmarketing/embed/YzMpxvW?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/YzMpxvW">
+  Adding an Image</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ---
 
