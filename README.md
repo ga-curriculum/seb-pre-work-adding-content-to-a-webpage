@@ -266,6 +266,8 @@ Notice that the `<img>` tag doesn’t have a full closing tag like the others we
 
 ---
 
+<h1 class="slide-header">alt</h1>
+
 ```HTML
 <img  src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
 ```
@@ -273,6 +275,8 @@ Notice that the `<img>` tag doesn’t have a full closing tag like the others we
 The `alt` stands for **alternative text**, commonly called “alt text.” Some of your page’s visitors may be visually impaired or won’t be able to see the casserole image. Alt text is used to help indicate content for those viewers. In this case, a screen reader would say, “Tater Tot Casserole.”
 
 ---
+
+<h1 class="slide-header">width and height</h1>
 
 ```HTML
 <img  src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
