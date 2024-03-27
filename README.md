@@ -248,7 +248,7 @@ That’s a hefty bit of code, huh? We’ll review each part on the next slide.
 <details>
   <summary>The img tag</summary>
 
-<img src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
+`<img src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />`
 
 Like any element, the image element has a tag. As you surely guessed, `img` stands for image. 
 
