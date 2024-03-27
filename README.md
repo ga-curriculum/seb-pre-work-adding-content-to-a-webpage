@@ -245,7 +245,7 @@ That’s a hefty bit of code, huh? We’ll review each part on the next slide.
 
 <h1 class="slide-header">HTML Image Attributes</h1>
 
-<details>
+<details markdown="0">
   <summary>The img tag</summary>
 
 `<img src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />`
