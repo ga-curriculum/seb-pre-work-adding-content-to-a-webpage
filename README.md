@@ -245,7 +245,15 @@ That’s a hefty bit of code, huh? We’ll review each part on the next slide.
 
 <h1 class="slide-header">HTML Image Attributes</h1>
 
-cards 
+<details>
+  <summary>The img tag</summary>
+
+<img src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
+
+Like any element, the image element has a tag. As you surely guessed, `img` stands for image. 
+
+Notice that the `<img>` tag doesn’t have a full closing tag like the others we’ve defined so far. This is one of several “self-closing” HTML tags. It closes itself when we add a `/>` at the end of a statement.
+</details>
 
 ---
 
