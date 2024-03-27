@@ -243,17 +243,42 @@ That’s a hefty bit of code, huh? We’ll review each part on the next slide.
 
 ---
 
-<h1 class="slide-header">HTML Image Attributes</h1>
+<h1 class="slide-header">HTML Image Attributes: img tag</h1>
 
-<details markdown="0">
-  <summary>The img tag</summary>
 
-`<img src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />`
+```html
+<img src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
+```
 
 Like any element, the image element has a tag. As you surely guessed, `img` stands for image. 
 
 Notice that the `<img>` tag doesn’t have a full closing tag like the others we’ve defined so far. This is one of several “self-closing” HTML tags. It closes itself when we add a `/>` at the end of a statement.
-</details>
+
+---
+
+<h1 class="slide-header">src</h1>
+
+```HTML
+<img  src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
+```
+
+`src` stands for **source**, as in where the image comes from. This is usually a URL. In the case of your casserole picture, the URL is `https://bit.ly/2FsuPLG`.
+
+---
+
+```HTML
+<img  src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
+```
+
+The `alt` stands for **alternative text**, commonly called “alt text.” Some of your page’s visitors may be visually impaired or won’t be able to see the casserole image. Alt text is used to help indicate content for those viewers. In this case, a screen reader would say, “Tater Tot Casserole.”
+
+---
+
+```HTML
+<img  src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
+```
+
+These specify the image’s width and height in pixels. The original image was much too large (2592x1936), so you reduced it proportionally. You can add these in the HTML tag, like we did here, or in your CSS, which we’ll learn about in a future lesson.
 
 ---
 
