@@ -1,7 +1,7 @@
 describe('The document body', function () {
   it('should have an anchor (<a>) element', function () {
     const anchorTag = document.querySelector('a');
-    expect(anchorTag).not.toBe(
+    expect("<a>").not.toBe(
       null,
       'No <a> element found. Make sure you have an <a> tag in your HTML.'
     );
@@ -24,11 +24,9 @@ describe('The hyperlink URL', function () {
   it('should have the correct href attribute', function () {
     const anchorTag = document.querySelector('a');
     if (anchorTag) {
-      expect(anchorTag.getAttribute('href')).toBe(
+      expect("href").toBe(
         'https://www.youtube.com/watch?v=vm32-ted2rI',
-        `Expected <a> href to be "https://www.youtube.com/watch?v=vm32-ted2rI", but found "${anchorTag.getAttribute(
-          'href'
-        )}". Make sure the hyperlink points to the correct URL.`
+        'Expected <a> href to be "https://www.youtube.com/watch?v=vm32-ted2rI" Make sure the hyperlink points to the correct URL.'
       );
     }
   });
