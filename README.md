@@ -220,7 +220,7 @@ Types of cats:
   
   <input type="radio" name="list-question" id="option1" value="option1" />
   <label for="option1">
-    ```html
+    ```text
     <ul>
       <li>Types of cats:</li>
       <li>Tuxedo</li>
@@ -234,7 +234,7 @@ Types of cats:
   
   <input type="radio" name="list-question" id="option2" value="option2" />
   <label for="option2">
-    ```html
+    ```text
     <p>Types of cats:</p>
     <ul>
       <li>1. Tuxedo</li>
@@ -248,7 +248,7 @@ Types of cats:
   
   <input type="radio" name="list-question" id="option3" value="option3" correct="true" />
   <label for="option3">
-    ```html
+    ```text
     <p>Types of cats:</p>
     <ol>
       <li>Tuxedo</li>
@@ -262,7 +262,7 @@ Types of cats:
 
   <input type="radio" name="list-question" id="option4" value="option4" />
   <label for="option4">
-    ```html
+    ```text
     <h2>Types of cats:</h2>
     <ul>
       <li>Tuxedo</li>
