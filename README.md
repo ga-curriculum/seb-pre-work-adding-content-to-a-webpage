@@ -26,7 +26,7 @@ Inserting Images in HTML
 
 <hr>
 
-<a href="https://ga-create-api.s3.amazonaws.com/studyguides/adding-content-to-a-webpage-2ab50f.pdf" target="_blank" download="adding_conent_to_a_web_page_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
+<a href="./assets/adding_conent_to_a_web_page_study_guide.pdf" target="_blank" download="adding_conent_to_a_web_page_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
 
 ---
 
@@ -205,7 +205,8 @@ Notice how the list we added has a _parent element_ with four indented  _child e
 
 <h1 class="slide-header">Knowledge Check</h1>
 
-Let’s practice your list-making skills. In the box below (not on Zelda’s website), write out the HTML code that would create a list like this one:
+Let’s practice your list-making skills. Which of the following HTML code blocks would create a list like this one?
+
 ```
 Types of cats:
 1. Tuxedo
@@ -213,6 +214,70 @@ Types of cats:
 3. Maine Coon
 4. Calico
 ```
+
+<fieldset>
+  <legend>Please select one of the following</legend>
+  
+  <input type="radio" name="list-question" id="option1" value="option1" />
+  <label for="option1">
+    ```html
+    <ul>
+      <li>Types of cats:</li>
+      <li>Tuxedo</li>
+      <li>Burmese</li>
+      <li>Maine Coon</li>
+      <li>Calico</li>
+    </ul>
+    ```
+  </label>
+  <br />
+  
+  <input type="radio" name="list-question" id="option2" value="option2" />
+  <label for="option2">
+    ```html
+    <p>Types of cats:</p>
+    <ul>
+      <li>1. Tuxedo</li>
+      <li>2. Burmese</li>
+      <li>3. Maine Coon</li>
+      <li>4. Calico</li>
+    </ul>
+    ```
+  </label>
+  <br />
+  
+  <input type="radio" name="list-question" id="option3" value="option3" correct="true" />
+  <label for="option3">
+    ```html
+    <p>Types of cats:</p>
+    <ol>
+      <li>Tuxedo</li>
+      <li>Burmese</li>
+      <li>Maine Coon</li>
+      <li>Calico</li>
+    </ol>
+    ```
+  </label>
+  <br />
+
+  <input type="radio" name="list-question" id="option4" value="option4" />
+  <label for="option4">
+    ```html
+    <h2>Types of cats:</h2>
+    <ul>
+      <li>Tuxedo</li>
+      <li>Burmese</li>
+      <li>Maine Coon</li>
+      <li>Calico</li>
+    </ul>
+    ```
+  </label>
+  <br />
+  
+</fieldset>
+
+<button class="ant-btn ant-btn-primary multiple-choice-radio-submit">Submit Answer</button>
+
 
 ---
 
