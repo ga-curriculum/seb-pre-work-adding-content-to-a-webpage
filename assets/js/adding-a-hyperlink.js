@@ -1,5 +1,5 @@
-describe('The second paragraph element', function () {
-  it('should have a second paragraph (<p>) element containing an anchor (<a>)', function () {
+describe('The document (<body>)', function () {
+  it('should have a second paragraph (<p>) element containing an anchor tag (<a>)', function () {
     const paragraphTags = document.querySelectorAll('p');
     expect(paragraphTags.length).toBeGreaterThanOrEqual(
       2,
@@ -17,8 +17,8 @@ describe('The second paragraph element', function () {
   });
 });
 
-describe('The hyperlink text inside the second paragraph', function () {
-  it('should contain the correct text inside the second <p>', function () {
+describe('The second (<p>) paragraph', function () {
+  it('should contain an (<a>) anchor tag with the correct text content', function () {
     const paragraphTags = document.querySelectorAll('p');
     if (paragraphTags.length >= 2) {
       const secondParagraph = paragraphTags[1]; // Targeting the second <p>
@@ -40,8 +40,8 @@ describe('The hyperlink text inside the second paragraph', function () {
   });
 });
 
-describe('The hyperlink URL inside the second paragraph', function () {
-  it('should have the correct href attribute inside the second <p>', function () {
+describe('The (<a>) anchor tag', function () {
+  it('should have the correct href attribute', function () {
     const paragraphTags = document.querySelectorAll('p');
     if (paragraphTags.length >= 2) {
       const secondParagraph = paragraphTags[1]; // Targeting the second <p>
