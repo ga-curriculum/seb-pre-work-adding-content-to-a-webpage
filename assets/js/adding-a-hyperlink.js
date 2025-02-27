@@ -1,32 +1,55 @@
-describe('The document body', function () {
-  it('should have an anchor (<a>) element', function () {
-    const anchorTag = document.querySelector('a');
-    expect("<a>").not.toBe(
+describe('The paragraph element', function () {
+  it('should have a paragraph (<p>) element containing an anchor (<a>)', function () {
+    const paragraphTag = document.querySelector('p');
+    const anchorTag = paragraphTag ? paragraphTag.querySelector('a') : null;
+    expect(anchorTag).not.toBe(
       null,
-      'No <a> element found. Make sure you have an <a> tag in your HTML.'
+      'No <a> element found inside the <p>. Make sure you have an <a> tag inside your paragraph.'
     );
   });
 });
 
 describe('The hyperlink text', function () {
-  it('should contain the correct text', function () {
-    const anchorTag = document.querySelector('a');
-    if (anchorTag) {
+  it('should contain the correct text inside the <p>', function () {
+    const paragraphTag = document.querySelector('p');
+    if (paragraphTag) {
+      const anchorTag = paragraphTag.querySelector('a');
+      expect(anchorTag).not.toBe(
+        null,
+        'No <a> element found inside the <p>. Make sure you have an <a> tag inside your paragraph.'
+      );
+
       expect(anchorTag.textContent.trim()).toBe(
         'Rock out to a demo.',
-        `Expected <a> to contain "Rock out to a demo.", but found "${anchorTag.textContent.trim()}". Make sure the link text is correct and does not have extra spaces.`
+        `Expected <a> inside <p> to contain "Rock out to a demo.", but found "${anchorTag.textContent.trim()}". Make sure the link text is correct and does not have extra spaces.`
+      );
+    } else {
+      fail(
+        'No <p> element found. Ensure you have a paragraph containing an <a> tag.'
       );
     }
   });
 });
 
 describe('The hyperlink URL', function () {
-  it('should have the correct href attribute', function () {
-    const anchorTag = document.querySelector('a');
-    if (anchorTag) {
-      expect("href").toBe(
+  it('should have the correct href attribute inside the <p>', function () {
+    const paragraphTag = document.querySelector('p');
+    if (paragraphTag) {
+      const anchorTag = paragraphTag.querySelector('a');
+      expect(anchorTag).not.toBe(
+        null,
+        'No <a> element found inside the <p>. Make sure you have an <a> tag inside your paragraph.'
+      );
+
+      expect(anchorTag.getAttribute('href')).toBe(
         'https://www.youtube.com/watch?v=vm32-ted2rI',
-        'Expected <a> href to be "https://www.youtube.com/watch?v=vm32-ted2rI" Make sure the hyperlink points to the correct URL.'
+        `Expected <a> inside <p> to have href "https://www.youtube.com/watch?v=vm32-ted2rI", but found "${anchorTag.getAttribute(
+          'href'
+        )}". Ensure the hyperlink points to the correct URL.`
+      );
+    } else {
+      fail(
+        'No <p> element found. Ensure you have a paragraph containing an <a> tag.'
       );
     }
   });
