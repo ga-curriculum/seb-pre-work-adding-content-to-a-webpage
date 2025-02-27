@@ -49,8 +49,7 @@ All websites should start with a heading — something that tells users what the
 
 There are a series of these heading tags available, from `<h1>` through `<h6>`.  As the numbers increase, the text gets smaller. (Think about it this way: The `<h1>` is the most important element on the page, the `<h2>` is second-most important, and so on down the line.)
 
-![Example of HTML Heading Sizes](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/adding-content-to-web/Heading%20Sizes.png)
-
+<img src="./assets/heading-sizes.png" alt="Example of HTML Heading Sizes" style="width:60%;"/>
 ---
 
 <h1 class="slide-header">Adding Zelda's Headings</h1>
@@ -75,7 +74,7 @@ Remember to click the button to run our tests, which will confirm that your code
 
 Zelda’s been thinking about the new website, too. In fact, she just texted you the following request:
 
-![Text message](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/adding-content-to-web/Zelda%20Text%20Message%20Request%20for%20Tagline.png)
+<img src="./assets/zelda-text-message-request-for-tagline.png" alt="Text Message about Tagline" style="width:50%;"/>
 
 ---
 
@@ -97,8 +96,8 @@ Below the `<h1>` and `<h3>`, add a `<p>` that contains `Out of the oven and into
 
 Looks like we’ve got another item to add! 
 
-![Text message](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/adding-content-to-web/Zelda%20Text%20Message%20Requesting%20For%20Link.png)
 
+<img src="./assets/zelda-text-message-request-for-link.png" alt="Text message about Link" style="width:50%;"/>
 ---
 
 <h1 class="slide-header">Adding a Hyperlink</h1>
@@ -125,7 +124,7 @@ That was easy enough to plug in, but what does the `<a>` tag mean? And what’s 
 
 Here’s the element we added:
 
-![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/annotated-code.png)
+<img src="./assets/annotated-code.png" alt="Annotated Link Text Code" style="width:80%;"/>
 
 Let’s break it down.
 * The `a` in the tag stands for **anchor**. An anchor tag is a means of linking to another place; either to a location on the same page or to a completely different website, like you’re doing here.
@@ -156,7 +155,7 @@ Your turn!
 
 OK, so she wants a list of songs. Luckily, there’s an HTML element for that!
 
-![Text message](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/adding-content-to-web/Zelda%20Text%20Message%20Request%20For%20List%20Of%20Songs.png)
+<img src="./assets/zelda-text-message-request-for-list.png" alt="Text message add song list" style="width:50%;"/>
 
 ---
 
@@ -223,7 +222,7 @@ You’re not going to wait around for Zelda’s next text message. Instead, you�
 
 And not just _any_ image — a high-quality photo of tater tot casserole. (Get it? Kasserole?)
 
-![A tater tot casserole](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/adding-content-to-web/Public-Domain-Tater-Tot-Casserole.jpg)
+<img src="./assets/public-domain-casserole.jpg" alt="A casserole on a table" style="width:50%;"/>
 
 ---
 
