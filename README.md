@@ -220,56 +220,63 @@ Types of cats:
   
   <input type="radio" name="list-question" id="option1" value="option1" />
   <label for="option1">
-    &lt;ul&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Types of cats:&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Tuxedo&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Burmese&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Maine Coon&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Calico&lt;/li&gt;<br />
-    &lt;/ul&gt;
+    
+    <ul>
+      <li>Types of cats:</li>
+      <li>Tuxedo</li>
+      <li>Burmese</li>
+      <li>Maine Coon</li>
+      <li>Calico</li>
+    </ul>
+    
   </label>
   <br />
   
   <input type="radio" name="list-question" id="option2" value="option2" />
   <label for="option2">
-    &lt;p&gt;Types of cats:&lt;/p&gt;<br />
-    &lt;ul&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;1. Tuxedo&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;2. Burmese&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;3. Maine Coon&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;4. Calico&lt;/li&gt;<br />
-    &lt;/ul&gt;
+    
+    <p>Types of cats:</p>
+    <ul>
+      <li>1. Tuxedo</li>
+      <li>2. Burmese</li>
+      <li>3. Maine Coon</li>
+      <li>4. Calico</li>
+    </ul>
+    
   </label>
   <br />
   
   <input type="radio" name="list-question" id="option3" value="option3" correct="true" />
   <label for="option3">
-    &lt;p&gt;Types of cats:&lt;/p&gt;<br />
-    &lt;ol&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Tuxedo&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Burmese&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Maine Coon&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Calico&lt;/li&gt;<br />
-    &lt;/ol&gt;
+    
+    <p>Types of cats:</p>
+    <ol>
+      <li>Tuxedo</li>
+      <li>Burmese</li>
+      <li>Maine Coon</li>
+      <li>Calico</li>
+    </ol>
+    
   </label>
   <br />
 
   <input type="radio" name="list-question" id="option4" value="option4" />
   <label for="option4">
-    &lt;h2&gt;Types of cats:&lt;/h2&gt;<br />
-    &lt;ul&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Tuxedo&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Burmese&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Maine Coon&lt;/li&gt;<br />
-    &nbsp;&nbsp;&lt;li&gt;Calico&lt;/li&gt;<br />
-    &lt;/ul&gt;
+    
+    <h2>Types of cats:</h2>
+    <ul>
+      <li>Tuxedo</li>
+      <li>Burmese</li>
+      <li>Maine Coon</li>
+      <li>Calico</li>
+    </ul>
+    
   </label>
   <br />
   
 </fieldset>
 
 <button class="ant-btn ant-btn-primary multiple-choice-radio-submit">Submit Answer</button>
-
 
 
 ---
