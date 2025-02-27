@@ -214,20 +214,19 @@ Types of cats:
 3. Maine Coon
 4. Calico
 ```
-
 <fieldset>
   <legend>Please select one of the following</legend>
   
   <input type="radio" name="list-question" id="option1" value="option1" />
   <label for="option1">
     
-    <ul>
-      <li>Types of cats:</li>
-      <li>Tuxedo</li>
-      <li>Burmese</li>
-      <li>Maine Coon</li>
-      <li>Calico</li>
-    </ul>
+    &#60;ul&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Types of cats:&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Tuxedo&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Burmese&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Maine Coon&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Calico&#60;/li&#62;<br />
+    &#60;/ul&#62;
     
   </label>
   <br />
@@ -235,13 +234,13 @@ Types of cats:
   <input type="radio" name="list-question" id="option2" value="option2" />
   <label for="option2">
     
-    <p>Types of cats:</p>
-    <ul>
-      <li>1. Tuxedo</li>
-      <li>2. Burmese</li>
-      <li>3. Maine Coon</li>
-      <li>4. Calico</li>
-    </ul>
+    &#60;p&#62;Types of cats:&#60;/p&#62;<br />
+    &#60;ul&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;1. Tuxedo&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;2. Burmese&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;3. Maine Coon&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;4. Calico&#60;/li&#62;<br />
+    &#60;/ul&#62;
     
   </label>
   <br />
@@ -249,13 +248,13 @@ Types of cats:
   <input type="radio" name="list-question" id="option3" value="option3" correct="true" />
   <label for="option3">
     
-    <p>Types of cats:</p>
-    <ol>
-      <li>Tuxedo</li>
-      <li>Burmese</li>
-      <li>Maine Coon</li>
-      <li>Calico</li>
-    </ol>
+    &#60;p&#62;Types of cats:&#60;/p&#62;<br />
+    &#60;ol&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Tuxedo&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Burmese&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Maine Coon&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Calico&#60;/li&#62;<br />
+    &#60;/ol&#62;
     
   </label>
   <br />
@@ -263,13 +262,13 @@ Types of cats:
   <input type="radio" name="list-question" id="option4" value="option4" />
   <label for="option4">
     
-    <h2>Types of cats:</h2>
-    <ul>
-      <li>Tuxedo</li>
-      <li>Burmese</li>
-      <li>Maine Coon</li>
-      <li>Calico</li>
-    </ul>
+    &#60;h2&#62;Types of cats:&#60;/h2&#62;<br />
+    &#60;ul&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Tuxedo&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Burmese&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Maine Coon&#60;/li&#62;<br />
+    &nbsp;&nbsp;&#60;li&#62;Calico&#60;/li&#62;<br />
+    &#60;/ul&#62;
     
   </label>
   <br />
@@ -277,6 +276,7 @@ Types of cats:
 </fieldset>
 
 <button class="ant-btn ant-btn-primary multiple-choice-radio-submit">Submit Answer</button>
+
 
 
 ---
