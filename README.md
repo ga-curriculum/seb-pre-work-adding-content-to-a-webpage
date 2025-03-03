@@ -1,4 +1,4 @@
-<textarea id="source">
+<!-- <textarea id="source"> -->
 
 <h1 class="slide-header">Adding Content to a Web Page</h1>
 
@@ -7,6 +7,8 @@
 <p id="lesson-description">
   With templates like the HTML boilerplate, it’s easy to put the shell of an HTML file into place. But populating that page with content? That’s up to you. In this lesson, we’ll show you how.
 </p>
+
+<br>
 
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
 
@@ -47,23 +49,28 @@ Inserting Images in HTML
 
 All websites should start with a heading — something that tells users what they’re seeing.
 
-There are a series of these heading tags available, from `<h1>` through `<h6>`.  As the numbers increase, the text gets smaller. (Think about it this way: The `<h1>` is the most important element on the page, the `<h2>` is second-most important, and so on down the line.)
+There are a series of these heading tags available, from `<h1>` through `<h6>`. As the numbers increase, the text gets smaller. (Think about it this way: The `<h1>` is the most important element on the page, the `<h2>` is second-most important, and so on down the line.)
 
-<img src="./assets/heading-sizes.png" alt="Example of HTML Heading Sizes" style="width:60%;"/>
+It’s important to use heading levels in order without skipping (such as jumping from `<h1>` to `<h3>`). Headings help organize content for both users and search engines. If you want to change the size of a heading for design reasons, you can do that using CSS later — but for now, focus on using them in the correct order for structure.
+
+<img src="./assets/heading-sizes.png" alt="Example of HTML Heading Sizes" style="width:50%;"/>
+
 ---
 
-<h1 class="slide-header">Adding Zelda's Headings</h1>
+<h1 class="slide-header">Adding a Heading</h1>
 
-Let’s pick up where we left off last lesson, when we added an `<h1>` to Zelda’s site — “Kasserole,” the name of the band.
+Let’s pick up where we left off last lesson, when we added an `<h1>` to the Café Aurora website — the name of the café.
 
-Most sites should have **only one `<h1>` tag**, as it’s supposed to indicate the most important thing on the page. So, let’s add another heading below that. Maybe something to build up Zelda’s confidence about her new band?
-  
-Let’s use an `<h3>` tag, because we don’t need the copy to be quite as large as the `<h1>`. Add the text `Critics dub Kasserole the Metallica of modern times.`.
-  
-Remember to click the button to run our tests, which will confirm that your code is correct!
+Most sites should have only one `<h1>` tag, as it’s supposed to indicate the most important thing on the page. So, let’s add another heading below that. Something to give visitors a warm introduction to the café’s atmosphere.
 
-<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding Zelda's Headings" src="https://codepen.io/GAmarketing/embed/BaEQdxw?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/GAmarketing/pen/BaEQdxw">
+Let’s use an `<h2>` tag since it’s the next level of importance.
+
+**1. Create an `<h2>` and add the text: `Bringing people together over artisanal coffee and fresh pastries`.**
+
+Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+
+<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding a Heading" src="https://codepen.io/GAmarketing/embed/vEYxWvj?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/vEYxWvj">
   Adding Zelda's Headings</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
@@ -72,65 +79,82 @@ Remember to click the button to run our tests, which will confirm that your code
 
 <h1 class="slide-header">Adding More Text</h1>
 
-Zelda’s been thinking about the new website, too. In fact, she just texted you the following request:
+Your friend has been thinking about content for the new website. In fact, they just messaged you with a request:
 
-<img src="./assets/zelda-text-message-request-for-tagline.png" alt="Text Message about Tagline" style="width:50%;"/>
+_"Can you add this to the site: 'Locally roasted coffee, specialty teas, and homemade treats'?" Thank you!_
+
+<br>
+
+<img src="./assets/request-for-tagline.jpg" alt="Text Message about Tagline" style="width:50%;"/>
 
 ---
 
 <h1 class="slide-header">The p tag</h1>
 
-Let’s add Zelda’s new tagline to the page. We’ll place it in a `<p>`, or “paragraph,” tag, which adds text in a smaller, more standard size than heading tags. Think of the `<p>` tag as your default option for regular text.
+Let’s add the new text content to the page. We’ll place it in a `<p>`, or “paragraph,” tag, which adds text in a smaller, more standard size than heading tags. Think of the `<p>` tag as your default option for regular text.
 
-Below the `<h1>` and `<h3>`, add a `<p>` that contains `Out of the oven and into your soul.`.
+**1. Below the `<h1>` and `<h2>`, add a `<p>` that contains `"Locally roasted coffee, specialty teas, and homemade treats."`**
 
-  <iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="The paragraph tag" src="https://codepen.io/GAmarketing/embed/yLrVojR?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-    See the Pen <a href="https://codepen.io/GAmarketing/pen/yLrVojR">
+Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+
+  <iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="The paragraph tag" src="https://codepen.io/GAmarketing/embed/azbJEGG?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href="https://codepen.io/GAmarketing/pen/azbJEGG">
     The paragraph tag</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
     on <a href="https://codepen.io">CodePen</a>.
   </iframe>
 
 ---
 
-<h1 class="slide-header">Another Message from Zelda</h1>
+<h1 class="slide-header">Another Message Request</h1>
 
-Looks like we’ve got another item to add! 
+Looks like we’ve got another item to add!
 
+Your friend has reached out again, this time they said:
 
-<img src="./assets/zelda-text-message-request-for-link.png" alt="Text message about Link" style="width:50%;"/>
+_"I think it would be great to have a link to our menu, is that possible?"_
+
+<br>
+
+<img src="./assets/text-message-request-for-link.jpg" alt="Text message about Link" style="width:50%;"/>
+
 ---
 
 <h1 class="slide-header">Adding a Hyperlink</h1>
 
-Let’s add that text and link it to the YouTube demo video.
+Now, let’s add a link to the café’s menu so visitors can see what’s available:
 
-Follow these steps:
-1. After the tagline, add another paragraph opening tag (`<p>`).
-2. Following the new `<p>` tag, add this exact code: `<a href="https://www.youtube.com/watch?v=vm32-ted2rI" target="_blank">Rock out to a demo.</a>` .
-3. Add the closing paragraph tag.
-4. Check the preview screen to see if the new text appears. The URL _itself_ shouldn’t be displayed, only the words “Rock out to a demo.” 
+**1. On a new line below the existing `<p>`, add another paragraph opening tag `<p>`.**
 
-<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding a Hyperlink" src="https://codepen.io/GAmarketing/embed/XWQNaqQ?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/GAmarketing/pen/XWQNaqQ">
+**2. Following the new `<p>` tag, add this exact code: `<a href="https://www.example.com/menu" target="_blank">View our menu.</a>` .**
+
+**3. Add the `</p>` closing paragraph tag.**
+
+Check the _Result_ screen to see if the new text appears. The URL itself shouldn’t be displayed, only the words **“View our menu.”**
+
+Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+
+<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding a Hyperlink" src="https://codepen.io/GAmarketing/embed/EaxWoqe?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/EaxWoqe">
   Adding a Hyperlink</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-
-That was easy enough to plug in, but what does the `<a>` tag mean? And what’s with that `href=`?
 
 ---
 
 <h1 class="slide-header">The Anchor Element Tag</h1>
 
+That was simple to add, but what does the `<a>` tag actually do? And what about that `href=` part?
+
 Here’s the element we added:
 
 <img src="./assets/annotated-code.png" alt="Annotated Link Text Code" style="width:80%;"/>
 
-Let’s break it down.
-* The `a` in the tag stands for **anchor**. An anchor tag is a means of linking to another place; either to a location on the same page or to a completely different website, like you’re doing here.
-* The `href` stands for **hypertext reference**. This is the web address to which you are linking. 
-* The `target` attribute is a finishing touch. It isn’t strictly necessary, but it’s good to include. Setting the `target` value to `“_blank”` tells the browser to open the destination page in a _new window or tab_. If we _don’t_ include a target element, when a user clicks on the link, the new site will open in the same window (and take them away from our page). We don’t want that!
-* After the `target`, you can enter the **display text**, which the user will see on the page (instead of the long, messy hyperlink).
+Let’s break it down:
+
+- The `<a>` tag stands for **anchor**. Think of it as a bridge that connects your page to another place—either somewhere on the same page or a completely different website.
+- The `href` attribute stands for **hypertext reference**. This is where you tell the browser _where_ the link should go. It’s the web address (URL) that the link points to.
+- The `target` attribute is an optional extra, but it's useful! Setting `target="_blank"` tells the browser to **open the link in a new tab** instead of replacing your current page. If we don’t include this, the link will open in the same window, taking users away from our site.
+- Finally, we add the **display text**—this is what visitors actually see and click on instead of a long, messy URL.
 
 ---
 
@@ -138,45 +162,68 @@ Let’s break it down.
 
 Your turn!
 
-1. Add a new hyperlink to our HTML file inside of a new paragraph element. 
-2. Link to `https://pitchfork.com/` using the display text “Check out our reviews on Pitchfork.” 
-3. Make sure to set the target attribute to `_blank` so that your link opens in a new browser window.
-4. Always remember to check the preview window to ensure that everything has rendered correctly!
+Your friend’s café has received some great reviews, and you think it would be a great idea to share them on the website.
 
-<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Add Your Own Link" src="https://codepen.io/GAmarketing/embed/abxByGe?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/GAmarketing/pen/abxByGe">
+**1. Add a new hyperlink to our HTML file inside of a new paragraph element.**
+
+**2. Link to `https://www.example.com/reviews` using the display text `See what our customers are saying.`**
+
+**3. Make sure to set the target attribute to `_blank` so that your link opens in a new browser window.**
+
+Check the _Result_ window to ensure that everything has rendered correctly!
+
+Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+
+<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Add Your Own Link" src="https://codepen.io/GAmarketing/embed/PwopQJW?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/PwopQJW">
   Add Your Own Link</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
 ---
 
-<h1 class="slide-header">Zelda's Newest Request</h1>
+<h1 class="slide-header">Need More Details</h1>
 
-OK, so she wants a list of songs. Luckily, there’s an HTML element for that!
+Our website for Café Aurora is coming together nicely!
 
-<img src="./assets/zelda-text-message-request-for-list.png" alt="Text message add song list" style="width:50%;"/>
+We’ve added the name, a welcoming tagline, and links to the menu and customer reviews. But right now, the page still feels a little basic—we need some eye-catching details to make it more engaging.
+
+To give visitors a real taste of what makes Café Aurora special, we reach out to our friend and ask about the café’s must-try menu items.
+
+Here’s their reply:
+
+_"We mostly serve coffee and tea, but we have pastries too- here is a list of our specialties: handcrafted espresso, signature Arabic coffee, organic matcha tea, freshly baked croissants, and traditional date pastries."_
+
+Looks like we’ll need a way to list these items on the site…
+
+<br>
+
+<img src="./assets/text-message-our-specialties.jpg" alt="Text message add song list" style="width:50%;"/>
 
 ---
 
 <h1 class="slide-header">Adding a List</h1>
 
-To add that list of songs to the HTML file, follow these steps:
+To add this list of specialties to the `HTML` file, follow these steps:
 
-1. Add an `<h2>` element with a line containing the text `Song List`, and remember to use both opening and closing tags.
-2. After the `<h2>`, add the list like so:
+**1. Add a new `<h2>` element with the text `Our Specialties`. Remember to use both opening and closing tags.**
+
+**2. Below the `<h2>`, add the list exactly like this:**
 
 ```HTML
 <ul>
-  <li>Ogre Blood Ballad</li>
-  <li>Love is Weird</li>
-  <li>Just Because</li>
-  <li>Darkness in the Dark</li>
+  <li>Handcrafted Espresso</li>
+  <li>Signature Arabic Coffee</li>
+  <li>Organic Matcha Latte</li>
+  <li>Freshly Baked Croissants</li>
+  <li>Traditional Date Pastries</li>
 </ul>
 ```
 
-<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding a List" src="https://codepen.io/GAmarketing/embed/JjVbyZj?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/GAmarketing/pen/JjVbyZj">
+Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+
+<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding a List" src="https://codepen.io/GAmarketing/embed/QwWpQPx?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/QwWpQPx">
   Adding a List</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
@@ -185,102 +232,155 @@ To add that list of songs to the HTML file, follow these steps:
 
 <h1 class="slide-header">The List Element</h1>
 
-Notice how the list we added has a _parent element_ with four indented  _child elements_:
+Notice how the list we added has a **parent element** that contains multiple **child elements**:
 
 ```HTML
 <ul>
-  <li>Ogre Blood Ballad</li>
-  <li>Love is Weird</li>
-  <li>Just Because</li>
-  <li>Darkness in the Dark</li>
+  <li>Handcrafted Espresso</li>
+  <li>Signature Arabic Coffee</li>
+  <li>Organic Matcha Latte</li>
+  <li>Freshly Baked Croissants</li>
+  <li>Traditional Date Pastries</li>
 </ul>
 ```
 
-* The `<ul>` tag in the parent element stands for **unordered list**, which is a list of things in no particular order. 
-* The `<li>` in the child elements stands for **list item**. Each item gets its own set of `<li>` tags, which ensures that each item is listed on a separate line. 
+- The `<ul>` tag is the **parent element** and stands for **unordered list**. This means the items inside are not ranked or in a specific order—they’re simply listed.
 
-**Note**: What’s the opposite of an _unordered_ list? An _ordered_ list! Numbered lists that follow a specific order use a different tag: `<ol>`. As you progress in your web development career, you’ll notice that `<ul>`s are more common than `<ol>`s.
+- The `<li>` tags are **list items**, or **child elements** of `<ul>`. Each `<li>` tag creates an individual item in the list and ensures they appear on separate lines.
+
+**_What if we wanted a numbered list instead?_** Instead of `<ul>`, we would use `<ol>`, which stands for **ordered list**. This automatically numbers each list item, making it useful for step-by-step instructions or ranking items. While unordered lists `<ul>` are more common in web design, ordered lists `<ol>` are great for things like recipes, instructions, or rankings.
 
 ---
 
-<h1 class="slide-header">Surprise, Zelda!</h1>
+<h1 class="slide-header">Surprise, a Photo!</h1>
 
-You’re not going to wait around for Zelda’s next text message. Instead, you’ll surprise her by adding something else to the HTML file: an **image**.
+No need to wait for your friend’s next message—you’re feeling confident in your new web development skills!
 
-And not just _any_ image — a high-quality photo of tater tot casserole. (Get it? Kasserole?)
+Now, let’s make the site even more inviting by adding an _image_.
 
-<img src="./assets/public-domain-casserole.jpg" alt="A casserole on a table" style="width:50%;"/>
+A warm, welcoming photo can help capture the essence of Café Aurora. Let’s add an image that reflects the cozy atmosphere of friends enjoying coffee together.
+
+<img src="./assets/coffee-together.jpg" alt="Three friends sharing coffee." style="width:40%;"/>
 
 ---
 
 <h1 class="slide-header">Adding an Image</h1>
 
-So, how will you do this? You can’t just pop _any_ old image right into the HTML file. It has to be hosted somewhere online so that you can reference a specific **URL**, or web address, to link to it.
+So, how will you do this? You can’t just drop _any_ image into the HTML file. It has to be hosted online so you can reference a specific **URL**, or web address, to link to it.
 
-On a new line, below the closing tag for your list (`</ul>`), add the following code: `<img src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />`.
+**1. On a new line, below the closing tag for your list `</ul>`, add the following code:**
 
-That’s a hefty bit of code, huh? We’ll review each part on the next slide.
+```html
+<img src="https://tinyurl.com/html-coffee-img" alt="Three friends sharing coffee" width="324" height="242" />
+```
 
-<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding an Image" src="https://codepen.io/GAmarketing/embed/YzMpxvW?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/GAmarketing/pen/YzMpxvW">
+That’s a lot of code at once, but don’t worry! We’ll go over each part in the next section to explain what it all means.
+
+Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+
+<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding an Image" src="https://codepen.io/GAmarketing/embed/jEOBzBd?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/jEOBzBd">
   Adding an Image</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
 ---
 
-<h1 class="slide-header">HTML Image Attributes: img tag</h1>
+<h1 class="slide-header">HTML Image Attributes: <code>img</code> tag</h1>
 
+In HTML, we use the `<img>` tag to add images to a webpage. As you might have guessed, `img` stands for image.
 
 ```html
-<img src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
+<img src="" alt="" width="" height="" />
 ```
 
-Like any element, the image element has a tag. As you surely guessed, `img` stands for image. 
+Unlike most other HTML elements, the `<img>` tag **doesn’t need a separate closing tag**. Instead, it’s a **self-closing tag**, which means it finishes itself when we add `/>` at the end of the statement. This tells the browser that there’s nothing else inside the tag.
 
-Notice that the `<img>` tag doesn’t have a full closing tag like the others we’ve defined so far. This is one of several “self-closing” HTML tags. It closes itself when we add a `/>` at the end of a statement.
+Here’s what each part of the `<img>` tag does:
+
+- `src` (source) → This is where you put the **URL** or file path of the image you want to display.
+
+- `alt` (alternative text) → A short description of the image for **accessibility** and in case the image doesn’t load.
+
+- `width` & `height` → These control the **size** of the image in pixels.
+
+We’ll explore each of these in more detail next!
 
 ---
 
-<h1 class="slide-header">src</h1>
+<h1 class="slide-header"><code>src</code></h1>
 
-```HTML
-<img  src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
+```html
+<img src="https://tinyurl.com/html-coffee-img" alt="Three friends sharing coffee" width="324" height="242" />
 ```
 
-`src` stands for **source**, as in where the image comes from. This is usually a URL. In the case of your casserole picture, the URL is `https://bit.ly/2FsuPLG`.
+The `src` attribute stands for **source**, which tells the browser where to find the image. This can be a URL (like in this example) or a file saved on your computer.
+
+For our Café Aurora website, we are using an image hosted online at `https://tinyurl.com/html-coffee-img`. The browser loads this image and displays it on the webpage.
 
 ---
 
-<h1 class="slide-header">alt</h1>
+<h1 class="slide-header"><code>alt</code></h1>
 
-```HTML
-<img  src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
+```html
+<img src="https://tinyurl.com/html-coffee-img" alt="Three friends sharing coffee" width="324" height="242" />
 ```
 
-The `alt` stands for **alternative text**, commonly called “alt text.” Some of your page’s visitors may be visually impaired or won’t be able to see the casserole image. Alt text is used to help indicate content for those viewers. In this case, a screen reader would say, “Tater Tot Casserole.”
+The `alt` attribute stands for **alternative text**, commonly called **alt text**. This provides a description of the image for users who can’t see it, such as those using screen readers or if the image fails to load.
+
+For example, if a visually impaired visitor is using a screen reader, it will read the alt text aloud, saying something like: *"Three friends sharing coffee."* This makes the website more **accessible** and improves the user experience.
+
+Always write clear and descriptive alt text so all users can understand the purpose of an image!
 
 ---
 
-<h1 class="slide-header">width and height</h1>
+<h1 class="slide-header"><code>width</code> and <code>height</code></h1>
 
-```HTML
-<img  src="https://bit.ly/2FsuPLG" alt="Tater Tot Casserole" width="324" height="242" />
+```html
+<img src="https://tinyurl.com/html-coffee-img" alt="Three friends sharing coffee" width="324" height="242" />
 ```
 
-These specify the image’s width and height in pixels. The original image was much too large (2592x1936), so you reduced it proportionally. You can add these in the HTML tag, like we did here, or in your CSS, which we’ll learn about in a future lesson.
+The `width` and `height` attributes define the **size of the image in pixels**. This helps control how large or small the image appears on the webpage.
+
+In this example, we set:
+
+- `width="324"` → The image will be **324 pixels wide**.
+
+- `height="242"` → The image will be **242 pixels tall**.
+
+The original image was much larger, but by specifying the width and height, we made sure it fits neatly into our Café Aurora website.
+
+---
+
+<h1 class="slide-header">Formatting Image Tags for Readability</h1>
+
+Sometimes, you may see an `<img>` tag written in a different format, where each attribute is placed on a separate line. This can make the code easier to read, especially when working with multiple attributes:
+
+```html
+<img 
+  src="https://tinyurl.com/html-coffee-img" 
+  alt="Three friends sharing coffee" 
+  width="324" 
+  height="242" 
+/>
+```
+
+This format is functionally the same as writing everything on one line, but it helps keep your code organized and more readable, especially when working with longer attribute values!
 
 ---
 
 <h1 class="slide-header">Conclusion</h1>
 
-Wow, the heavy metal band website you’ve been working on has come a long way! Let’s review what you’ve accomplished:
+Wow, your Café Aurora website is really coming together! Let’s take a moment to review what you’ve accomplished:
 
-* You added text, including paragraphs (`<p>`) and headings (`<h1-h6>`).
-* You added two hyperlinks with the `<a>` tag, which — when clicked — open new browser windows.
-* You added an unordered list of songs with a `<ul>` and `<li>`s.
-* And finally, you added an image (`<img>`) of a tasty looking tater tot casserole.
+- You added text using paragraphs `<p>` and headings `<h1-h6>` to structure your content.
 
-That’s a lot! 
+- You created two hyperlinks with the `<a>` tag, allowing visitors to explore the menu and read customer reviews.
 
-</textarea>
+- You built an unordered list `<ul>` with `<li>` items to highlight the café’s specialties.
+
+- And finally, you added an image `<img>` to make the page more visually appealing.
+
+That’s a lot of progress! Keep going—you’re well on your way to building great websites.
+
+<!-- </textarea> -->
