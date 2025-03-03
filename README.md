@@ -87,7 +87,7 @@ _"Can you add this to the site: 'Locally roasted coffee, specialty teas, and hom
 
 ---
 
-<h1 class="slide-header">The p tag</h1>
+<h1 class="slide-header">The <code>p</code> tag</h1>
 
 Let’s add the new text content to the page. We’ll place it in a `<p>`, or “paragraph,” tag, which adds text in a smaller, more standard size than heading tags. Think of the `<p>` tag as your default option for regular text.
 
