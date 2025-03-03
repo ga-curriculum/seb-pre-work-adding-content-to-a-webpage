@@ -8,8 +8,6 @@
   With templates like the HTML boilerplate, it’s easy to put the shell of an HTML file into place. But populating that page with content? That’s up to you. In this lesson, we’ll show you how.
 </p>
 
-<br>
-
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
 
 Writing Text in HTML
@@ -53,7 +51,7 @@ There are a series of these heading tags available, from `<h1>` through `<h6>`. 
 
 It’s important to use heading levels in order without skipping (such as jumping from `<h1>` to `<h3>`). Headings help organize content for both users and search engines. If you want to change the size of a heading for design reasons, you can do that using CSS later — but for now, focus on using them in the correct order for structure.
 
-<img src="./assets/heading-sizes.png" alt="Example of HTML Heading Sizes" style="width:50%;"/>
+<img src="./assets/heading-sizes.png" alt="Example of HTML Heading Sizes" style="width:40%;"/>
 
 ---
 
@@ -85,7 +83,7 @@ _"Can you add this to the site: 'Locally roasted coffee, specialty teas, and hom
 
 <br>
 
-<img src="./assets/request-for-tagline.jpg" alt="Text Message about Tagline" style="width:50%;"/>
+<img src="./assets/request-for-tagline.jpg" alt="Text Message about Tagline" style="width:30%;"/>
 
 ---
 
@@ -115,7 +113,7 @@ _"I think it would be great to have a link to our menu, is that possible?"_
 
 <br>
 
-<img src="./assets/text-message-request-for-link.jpg" alt="Text message about Link" style="width:50%;"/>
+<img src="./assets/text-message-request-for-link.jpg" alt="Text message about Link" style="width:30%;"/>
 
 ---
 
@@ -147,7 +145,7 @@ That was simple to add, but what does the `<a>` tag actually do? And what about 
 
 Here’s the element we added:
 
-<img src="./assets/annotated-code.png" alt="Annotated Link Text Code" style="width:80%;"/>
+<img src="./assets/annotated-code.png" alt="Annotated Link Text Code" style="width:70%;"/>
 
 Let’s break it down:
 
@@ -198,7 +196,7 @@ Looks like we’ll need a way to list these items on the site…
 
 <br>
 
-<img src="./assets/text-message-our-specialties.jpg" alt="Text message add song list" style="width:50%;"/>
+<img src="./assets/text-message-our-specialties.jpg" alt="Text message add song list" style="width:30%;"/>
 
 ---
 
@@ -260,7 +258,7 @@ Now, let’s make the site even more inviting by adding an _image_.
 
 A warm, welcoming photo can help capture the essence of Café Aurora. Let’s add an image that reflects the cozy atmosphere of friends enjoying coffee together.
 
-<img src="./assets/coffee-together.jpg" alt="Three friends sharing coffee." style="width:40%;"/>
+<img src="./assets/coffee-together.jpg" alt="Three friends sharing coffee." style="width:30%;"/>
 
 ---
 
@@ -356,7 +354,7 @@ The original image was much larger, but by specifying the width and height, we m
 
 Sometimes, you may see an `<img>` tag written in a different format, where each attribute is placed on a separate line. This can make the code easier to read, especially when working with multiple attributes:
 
-```html
+```js
 <img 
   src="https://tinyurl.com/html-coffee-img" 
   alt="Three friends sharing coffee" 
