@@ -182,11 +182,9 @@ Remember to click the **View Test Results** button to run the tests, which will 
 
 <h1 class="slide-header">Need More Details</h1>
 
-Our website for Café Aurora is coming together nicely!
+Our Café Aurora website is coming together! 
 
-We’ve added the name, a welcoming tagline, and links to the menu and customer reviews. But right now, the page still feels a little basic—we need some eye-catching details to make it more engaging.
-
-To give visitors a real taste of what makes Café Aurora special, we reach out to our friend and ask about the café’s must-try menu items.
+We've added the name, a welcoming tagline, and links to the menu and customer reviews. But to make it more engaging, we need eye-catching details. To highlight what makes Café Aurora special, we ask our friend about the café’s must-try menu items.
 
 Here’s their reply:
 
