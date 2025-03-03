@@ -63,7 +63,7 @@ Most sites should have only one `<h1>` tag, as it’s supposed to indicate the m
 
 Let’s use an `<h2>` tag since it’s the next level of importance.
 
-**1. Create an `<h2>` and add the text: `Bringing people together over artisanal coffee and fresh pastries`.**
+**1. Create an `<h2>` and add the text: `Bringing people together over artisanal coffee and fresh pastries.`**
 
 Remember to click the **View Test Results** button to run the tests, which will confirm that your code is correct.
 
@@ -79,7 +79,7 @@ Remember to click the **View Test Results** button to run the tests, which will 
 
 Your friend has been thinking about content for the new website. In fact, they just messaged you with a request:
 
-_"Can you add this to the site: 'Locally roasted coffee, specialty teas, and homemade treats'?" Thank you!_
+_Can you add this to the site: "Locally roasted coffee, specialty teas, and homemade treats"? Thank you!_
 
 <br>
 
@@ -91,7 +91,7 @@ _"Can you add this to the site: 'Locally roasted coffee, specialty teas, and hom
 
 Let’s add the new text content to the page. We’ll place it in a `<p>`, or “paragraph,” tag, which adds text in a smaller, more standard size than heading tags. Think of the `<p>` tag as your default option for regular text.
 
-**1. Below the `<h1>` and `<h2>`, add a `<p>` that contains `"Locally roasted coffee, specialty teas, and homemade treats."`**
+**1. Below the `<h1>` and `<h2>`, add a `<p>` that contains `Locally roasted coffee, specialty teas, and homemade treats.`**
 
 Remember to click the **View Test Results** button to run the tests, which will confirm that your code is correct.
 
@@ -109,7 +109,7 @@ Looks like we’ve got another item to add!
 
 Your friend has reached out again, this time they said:
 
-_"I think it would be great to have a link to our menu, is that possible?"_
+_I think it would be great to have a link to our menu, is that possible?_
 
 <br>
 
@@ -190,7 +190,7 @@ To give visitors a real taste of what makes Café Aurora special, we reach out t
 
 Here’s their reply:
 
-_"We mostly serve coffee and tea, but we have pastries too- here is a list of our specialties: handcrafted espresso, signature Arabic coffee, organic matcha tea, freshly baked croissants, and traditional date pastries."_
+_We mostly serve coffee and tea, but we have pastries too- here is a list of our specialties: handcrafted espresso, signature Arabic coffee, organic matcha tea, freshly baked croissants, and traditional date pastries._
 
 Looks like we’ll need a way to list these items on the site…
 
