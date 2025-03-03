@@ -1,4 +1,4 @@
-<!-- <textarea id="source"> -->
+<textarea id="source">
 
 <h1 class="slide-header">Adding Content to a Web Page</h1>
 
@@ -383,4 +383,4 @@ Wow, your Café Aurora website is really coming together! Let’s take a moment 
 
 That’s a lot of progress! Keep going—you’re well on your way to building great websites.
 
-<!-- </textarea> -->
+</textarea>
