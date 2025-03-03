@@ -354,7 +354,7 @@ The original image was much larger, but by specifying the width and height, we m
 
 Sometimes, you may see an `<img>` tag written in a different format, where each attribute is placed on a separate line. This can make the code easier to read, especially when working with multiple attributes:
 
-<img src="./assets/img-format.png" alt="Example of img syntax" style="width:400px"/>
+<img src="./assets/img-format.png" alt="Example of img syntax" style="width:500px"/>
 
 This format is functionally the same as writing everything on one line, but it helps keep your code organized and more readable, especially when working with longer attribute values!
 
