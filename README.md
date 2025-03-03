@@ -5,7 +5,7 @@
 <span id=time-estimate class="color-grey-500">30 mins</span>
 
 <p id="lesson-description">
-  With templates like the HTML boilerplate, it’s easy to put the shell of an HTML file into place. But populating that page with content? That’s up to you. In this lesson, we’ll show you how.
+With templates like the HTML boilerplate, it’s easy to put the shell of an HTML file into place. But populating that page with content? That’s up to you. In this lesson, we’ll show you how.
 </p>
 
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
@@ -354,7 +354,7 @@ The original image was much larger, but by specifying the width and height, we m
 
 Sometimes, you may see an `<img>` tag written in a different format, where each attribute is placed on a separate line. This can make the code easier to read, especially when working with multiple attributes:
 
-```js
+```html
 <img 
   src="https://tinyurl.com/html-coffee-img" 
   alt="Three friends sharing coffee" 
