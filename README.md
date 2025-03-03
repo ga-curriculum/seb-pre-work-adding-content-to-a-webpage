@@ -65,7 +65,7 @@ Let’s use an `<h2>` tag since it’s the next level of importance.
 
 **1. Create an `<h2>` and add the text: `Bringing people together over artisanal coffee and fresh pastries`.**
 
-Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+Remember to click the **View Test Results** button to run the tests, which will confirm that your code is correct.
 
 <iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding a Heading" src="https://codepen.io/GAmarketing/embed/vEYxWvj?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GAmarketing/pen/vEYxWvj">
@@ -93,7 +93,7 @@ Let’s add the new text content to the page. We’ll place it in a `<p>`, or �
 
 **1. Below the `<h1>` and `<h2>`, add a `<p>` that contains `"Locally roasted coffee, specialty teas, and homemade treats."`**
 
-Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+Remember to click the **View Test Results** button to run the tests, which will confirm that your code is correct.
 
   <iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="The paragraph tag" src="https://codepen.io/GAmarketing/embed/azbJEGG?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
     See the Pen <a href="https://codepen.io/GAmarketing/pen/azbJEGG">
@@ -127,9 +127,9 @@ Now, let’s add a link to the café’s menu so visitors can see what’s avail
 
 **3. Add the `</p>` closing paragraph tag.**
 
-Check the _Result_ screen to see if the new text appears. The URL itself shouldn’t be displayed, only the words **“View our menu.”**
+Check the Result screen to see if the new text appears. The URL itself shouldn’t be displayed, only the words **“View our menu.”**
 
-Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+Remember to click the **View Test Results** button to run the tests, which will confirm that your code is correct.
 
 <iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding a Hyperlink" src="https://codepen.io/GAmarketing/embed/EaxWoqe?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GAmarketing/pen/EaxWoqe">
@@ -168,9 +168,9 @@ Your friend’s café has received some great reviews, and you think it would be
 
 **3. Make sure to set the target attribute to `_blank` so that your link opens in a new browser window.**
 
-Check the _Result_ window to ensure that everything has rendered correctly!
+Check the Result window to ensure that everything has rendered correctly!
 
-Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+Remember to click the **View Test Results** button to run the tests, which will confirm that your code is correct.
 
 <iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Add Your Own Link" src="https://codepen.io/GAmarketing/embed/PwopQJW?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GAmarketing/pen/PwopQJW">
@@ -218,7 +218,7 @@ To add this list of specialties to the `HTML` file, follow these steps:
 </ul>
 ```
 
-Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+Remember to click the **View Test Results** button to run the tests, which will confirm that your code is correct.
 
 <iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding a List" src="https://codepen.io/GAmarketing/embed/QwWpQPx?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GAmarketing/pen/QwWpQPx">
@@ -274,7 +274,7 @@ So, how will you do this? You can’t just drop _any_ image into the HTML file. 
 
 That’s a lot of code at once, but don’t worry! We’ll go over each part in the next section to explain what it all means.
 
-Remember to click the "View Test Results" button to run the tests, which will confirm that your code is correct.
+Remember to click the **View Test Results** button to run the tests, which will confirm that your code is correct.
 
 <iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Adding an Image" src="https://codepen.io/GAmarketing/embed/jEOBzBd?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GAmarketing/pen/jEOBzBd">
@@ -326,7 +326,7 @@ For our Café Aurora website, we are using an image hosted online at `https://ti
 
 The `alt` attribute stands for **alternative text**, commonly called **alt text**. This provides a description of the image for users who can’t see it, such as those using screen readers or if the image fails to load.
 
-For example, if a visually impaired visitor is using a screen reader, it will read the alt text aloud, saying something like: *"Three friends sharing coffee."* This makes the website more **accessible** and improves the user experience.
+For example, if a visually impaired visitor is using a screen reader, it will read the alt text aloud, saying something like: _"Three friends sharing coffee."_ This makes the website more **accessible** and improves the user experience.
 
 Always write clear and descriptive alt text so all users can understand the purpose of an image!
 
@@ -354,12 +354,12 @@ The original image was much larger, but by specifying the width and height, we m
 
 Sometimes, you may see an `<img>` tag written in a different format, where each attribute is placed on a separate line. This can make the code easier to read, especially when working with multiple attributes:
 
-```html
-<img 
-  src="https://tinyurl.com/html-coffee-img" 
-  alt="Three friends sharing coffee" 
-  width="324" 
-  height="242" 
+```text
+<img
+  src="https://tinyurl.com/html-coffee-img"
+  alt="Three friends sharing coffee"
+  width="324"
+  height="242"
 />
 ```
 

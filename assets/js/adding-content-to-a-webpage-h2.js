@@ -22,15 +22,15 @@ describe('The subheading of the document', function () {
 
       if (
         normalizedText !==
-        'Bringing people together over artisanal coffee and fresh pastries'
+        'Bringing people together over artisanal coffee and fresh pastries.'
       ) {
         fail(
-          `Expected <h2> to contain "Bringing people together over artisanal coffee and fresh pastries", but found "${h2.textContent.trim()}".\n\n❗ Make sure your subheading is spelled correctly and does not have extra spaces.`
+          `Expected <h2> to contain "Bringing people together over artisanal coffee and fresh pastries.", but found "${h2.textContent.trim()}".\n\n❗ Make sure your subheading is spelled correctly and does not have extra spaces.`
         );
       }
 
       expect(normalizedText).toEqual(
-        'Bringing people together over artisanal coffee and fresh pastries'
+        'Bringing people together over artisanal coffee and fresh pastries.'
       );
     }
   });
