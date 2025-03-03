@@ -9,7 +9,7 @@ describe('The subheading of the document', function () {
     expect(h2).not.toEqual(null);
   });
 
-  it('should contain the text "Bringing people together over artisanal coffee and fresh pastries"', function () {
+  it('should contain the text "Bringing people together over artisanal coffee and fresh pastries."', function () {
     const h2 = document.querySelector('h2');
 
     if (!h2) {
