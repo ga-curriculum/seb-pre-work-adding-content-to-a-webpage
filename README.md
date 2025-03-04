@@ -83,7 +83,7 @@ _Can you add this to the site: "Locally roasted coffee, specialty teas, and home
 
 <br>
 
-<img src="./assets/request-for-tagline.jpg" alt="Text Message about Tagline" style="width:400px;"/>
+<img src="./assets/request-for-tagline.jpg" alt="Text Message about Tagline" style="width:500px;"/>
 
 ---
 
@@ -113,7 +113,7 @@ _I think it would be great to have a link to our menu, is that possible?_
 
 <br>
 
-<img src="./assets/text-message-request-for-link.jpg" alt="Text message about Link" style="width:400px;"/>
+<img src="./assets/text-message-request-for-link.jpg" alt="Text message about Link" style="width:500px;"/>
 
 ---
 
@@ -196,7 +196,7 @@ Looks like we’ll need a way to list these items on the site…
 
 <br>
 
-<img src="./assets/text-message-our-specialties.jpg" alt="Text message add song list" style="width:400px;"/>
+<img src="./assets/text-message-our-specialties.jpg" alt="Text message add song list" style="width:500px;"/>
 
 ---
 
@@ -258,7 +258,7 @@ Now, let’s make the site even more inviting by adding an _image_.
 
 A warm, welcoming photo can help capture the essence of Café Aurora. Let’s add an image that reflects the cozy atmosphere of friends enjoying coffee together.
 
-<img src="./assets/coffee-together.jpg" alt="Three friends sharing coffee." style="width:30%;"/>
+<img src="./assets/coffee-together.jpg" alt="Three friends sharing coffee." style="width:40%;"/>
 
 ---
 
@@ -354,7 +354,7 @@ The original image was much larger, but by specifying the width and height, we m
 
 Sometimes, you may see an `<img>` tag written in a different format, where each attribute is placed on a separate line. This can make the code easier to read, especially when working with multiple attributes:
 
-<img src="./assets/img-format.png" alt="Example of img syntax" style="width:500px"/>
+<img src="./assets/img-format.png" alt="Example of img syntax" style="width:700px"/>
 
 This format is functionally the same as writing everything on one line, but it helps keep your code organized and more readable, especially when working with longer attribute values!
 
