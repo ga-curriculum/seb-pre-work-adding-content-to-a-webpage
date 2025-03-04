@@ -268,9 +268,7 @@ So, how will you do this? You can’t just drop _any_ image into the HTML file. 
 
 **1. On a new line, below the closing tag for your list `</ul>`, add the following code:**
 
-```html
-<img src="https://tinyurl.com/html-coffee-img" alt="Three friends sharing coffee" width="324" height="242" />
-```
+**`<img src="https://tinyurl.com/html-coffee-img" alt="Three friends sharing coffee" width="324" height="242" />`**
 
 That’s a lot of code at once, but don’t worry! We’ll go over each part in the next section to explain what it all means.
 
