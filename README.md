@@ -125,7 +125,7 @@ Now, let’s add a link to the café’s menu so visitors can see what’s avail
 
 **2. Following the new `<p>` tag, add this exact code:**
 
-`<a href="https://www.example.com/menu" target="_blank">View our menu.</a>`
+**`<a href="https://www.example.com/menu" target="_blank">View our menu.</a>`**
 
 **3. Add the `</p>` closing paragraph tag.**
 
