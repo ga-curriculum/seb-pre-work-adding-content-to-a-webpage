@@ -363,11 +363,8 @@ This format is functionally the same as writing everything on one line, but it h
 Wow, your Café Aurora website is really coming together! Let’s take a moment to review what you’ve accomplished:
 
 - You added text using paragraphs `<p>` and headings `<h1-h6>` to structure your content.
-
 - You created two hyperlinks with the `<a>` tag, allowing visitors to explore the menu and read customer reviews.
-
 - You built an unordered list `<ul>` with `<li>` items to highlight the café’s specialties.
-
 - And finally, you added an image `<img>` to make the page more visually appealing.
 
 That’s a lot of progress! Keep going—you’re well on your way to building great websites.
