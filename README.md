@@ -51,7 +51,7 @@ There are a series of these heading tags available, from `<h1>` through `<h6>`. 
 
 It’s important to use heading levels in order without skipping (such as jumping from `<h1>` to `<h3>`). Headings help organize content for both users and search engines. If you want to change the size of a heading for design reasons, you can do that using CSS later — but for now, focus on using them in the correct order for structure.
 
-<img src="./assets/heading-sizes.png" alt="Example of HTML Heading Sizes" style="width:40%;"/>
+<img src="./assets/heading-sizes.png" alt="Example of HTML Heading Sizes" style="width:600px;"/>
 
 ---
 
