@@ -83,7 +83,7 @@ _Can you add this to the site: "Locally roasted coffee, specialty teas, and home
 
 <br>
 
-<img src="./assets/request-for-tagline.jpg" alt="Text Message about Tagline" style="width:30%;"/>
+<img src="./assets/request-for-tagline.jpg" alt="Text Message about Tagline" style="width:400px;"/>
 
 ---
 
@@ -113,7 +113,7 @@ _I think it would be great to have a link to our menu, is that possible?_
 
 <br>
 
-<img src="./assets/text-message-request-for-link.jpg" alt="Text message about Link" style="width:30%;"/>
+<img src="./assets/text-message-request-for-link.jpg" alt="Text message about Link" style="width:400px;"/>
 
 ---
 
@@ -123,7 +123,9 @@ Now, let’s add a link to the café’s menu so visitors can see what’s avail
 
 **1. On a new line below the existing `<p>`, add another paragraph opening tag `<p>`.**
 
-**2. Following the new `<p>` tag, add this exact code: `<a href="https://www.example.com/menu" target="_blank">View our menu.</a>` .**
+**2. Following the new `<p>` tag, add this exact code:**
+
+`<a href="https://www.example.com/menu" target="_blank">View our menu.</a>`
 
 **3. Add the `</p>` closing paragraph tag.**
 
@@ -194,7 +196,7 @@ Looks like we’ll need a way to list these items on the site…
 
 <br>
 
-<img src="./assets/text-message-our-specialties.jpg" alt="Text message add song list" style="width:30%;"/>
+<img src="./assets/text-message-our-specialties.jpg" alt="Text message add song list" style="width:400px;"/>
 
 ---
 
