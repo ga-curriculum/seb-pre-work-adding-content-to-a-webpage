@@ -147,7 +147,7 @@ That was simple to add, but what does the `<a>` tag actually do? And what about 
 
 Here’s the element we added:
 
-<img src="./assets/annotated-code.png" alt="Annotated Link Text Code" style="width:700px;"/>
+<img src="./assets/annotated-code.png" alt="Annotated Link Text Code" style="width:800px;"/>
 
 Let’s break it down:
 
