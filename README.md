@@ -73,6 +73,8 @@ Remember to click the **View Test Results** button to run the tests, which will 
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+<small><strong>TIP:</strong> After updating your code, click the <strong>"Run"</strong> or <strong>"Rerun"</strong> button in CodePen to make sure your changes take effect. Then, check <strong>View Test Results</strong> to see if your updates pass!</small>
+
 ---
 
 <h1 class="slide-header">Adding More Text</h1>
@@ -100,6 +102,8 @@ Remember to click the **View Test Results** button to run the tests, which will 
     The paragraph tag</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
     on <a href="https://codepen.io">CodePen</a>.
   </iframe>
+
+  <small><strong>TIP:</strong> After updating your code, click the <strong>"Run"</strong> or <strong>"Rerun"</strong> button in CodePen to make sure your changes take effect. Then, check <strong>View Test Results</strong> to see if your updates pass!</small>
 
 ---
 
@@ -138,6 +142,8 @@ Remember to click the **View Test Results** button to run the tests, which will 
   Adding a Hyperlink</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+<small><strong>TIP:</strong> After updating your code, click the <strong>"Run"</strong> or <strong>"Rerun"</strong> button in CodePen to make sure your changes take effect. Then, check <strong>View Test Results</strong> to see if your updates pass!</small>
 
 ---
 
@@ -179,6 +185,8 @@ Remember to click the **View Test Results** button to run the tests, which will 
   Add Your Own Link</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+<small><strong>TIP:</strong> After updating your code, click the <strong>"Run"</strong> or <strong>"Rerun"</strong> button in CodePen to make sure your changes take effect. Then, check <strong>View Test Results</strong> to see if your updates pass!</small>
 
 ---
 
@@ -225,6 +233,8 @@ Remember to click the **View Test Results** button to run the tests, which will 
   Adding a List</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+<small><strong>TIP:</strong> After updating your code, click the <strong>"Run"</strong> or <strong>"Rerun"</strong> button in CodePen to make sure your changes take effect. Then, check <strong>View Test Results</strong> to see if your updates pass!</small>
 
 ---
 
@@ -279,6 +289,8 @@ Remember to click the **View Test Results** button to run the tests, which will 
   Adding an Image</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+<small><strong>TIP:</strong> After updating your code, click the <strong>"Run"</strong> or <strong>"Rerun"</strong> button in CodePen to make sure your changes take effect. Then, check <strong>View Test Results</strong> to see if your updates pass!</small>
 
 ---
 
